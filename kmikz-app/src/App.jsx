@@ -1,9 +1,22 @@
+import Navigation from './components/Navigation'
+import Hero from './components/Hero'
+import Solutions from './components/Solutions'
+import ServicesInAction from './components/ServicesInAction'
+import FAQ from './components/FAQ'
+import Footer from './components/Footer'
+import WhatsAppFloat from './components/WhatsAppFloat'
+
 function App() {
 
   return (
     <>
-      <h1>Kmikz App</h1>
-      <p>Aplicação React criada com Vite!</p>
+      <Navigation />
+      <Hero />
+      <Solutions />
+      <ServicesInAction />
+      <FAQ />
+      <Footer />
+      <WhatsAppFloat />
     </>
   )
 }
